@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+.bc-white {
+    background-color: #fff;
+}
+
+.bc-black {
+    background-color: #222831;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+/* NAV */
+
+nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a .logo {
+    width: 70px;
+    padding-left: 110px;
+}
+
+.menu {
+    padding-right: 110px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+}
+
+.menu a {
+    padding-left: 40px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* Header */
+
+.presentation-header {
+    height: 600px;
+    background-image: url(../images/Component\ 3\ \(1\).png);
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.presentation-header .phrase {
+    animation: ease-in animacion 1s;
+}
+
+@keyframes animacion {
+    0% {
+        transform: scale(0);
+    } 100% {
+        transform: scale(1);
+    }
+}
+
+/* SERVICIOS */
+
+.servicios {
+    height: 400px;
+    width: 100%;
+}
+
+.servicios h2 {
+    margin: 60px 0 50px;
+}
+
+.image-services {
+    width: 100px;
+    display: block;
+    margin: auto;
+    
+}
+
+.sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.section {
+    padding: 10px 60px;
+    margin: 20px 0;
+}
+
+
+.section p {
+    text-align: center;
+}
+
+/** PORTAFOLIO **/
+
+.portafolio {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.portafolio img {
+    width: 50%;
+}
+
+.text-portafolio {
+    margin-left: 50px;
+    margin: auto;
+}
+
+
+.text-portafolio h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.text-portafolio a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Bebas Neue';
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 130px;
+    padding: 7px 0;
+    background: #F7DA3E;
+    border-radius: 7px;
+    text-align: center;
+}
+
+/* PRESENTACION */
+
+.ms-presentation {
+    width: 100%;
+    height: 450px;
+}
+
+.ms-header {
+    display: flex;
+    padding: 30px 0;
+    justify-content: center;
+}
+
+.ms-header h2 {
+    font-family: 'Bebas Neue';
+    font-size: 6rem;
+}
+
+.ms-header img {
+    width: 20%;
+    margin: 0 30px;
+}
+
+.ms-presentation p {
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    color: #585858;
+}
+
+/* CONTACTO */
+
+.contact-section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-section img{
+    width: 50%;
+}
+
+.text-contact {
+    padding-left: 100px;
+    margin: auto;
+}
+
+.text-contact h2 {
+    font-size: 2rem;
+    width: 70%;
+    text-align: left;
+    color: #fff;
+}
+
+.text-contact p {
+    color: #fff;
+}
+
+.text-contact p {
+    padding-bottom: 20px;
+}
+
+.text-contact a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    background-color: #F7DA3E;
+    width: 130px;
+    font-family: 'Bebas Neue';
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 7px 0;
+    border-radius: 7px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.phrase-footer {
+    padding: 20px 0;
+}
+
+hr {
+    width: 30%;
+}
+
+.redes-sociales {
+    font-size: 50px;
+    margin: 20px 0;
+    
+}
+
+.redes-sociales a {
+    color: #000;
+}
+
+.icon {
+    margin: 0 10px;
+}
+
+.icon:hover {
+    color: #F7DA3E;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0;
+}
+
+.copy i {
+    font-size: 20px;
+}
+
+.copy p {
+    margin: 0 10px;
+}
